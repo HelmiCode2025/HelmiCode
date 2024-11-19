@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Page.css">
+    <title>Page The Data</title>
+</head>
+<body dir="rtl">
+   
+        <div class="main">
+        <header>
+            <img src="شعار جامعة صنعاء.svg" class="logo" alt="" />
+            <div class="heading">
+                <img src="الجمهورية اليمنية.png" class="p" alt="" />
+                <p>جـامعـة صنعاء</p>
+                <p>نيابة الدراسات العليا والبحث العلمي</p>
+                <p>كلية التربية</p>
+                <p>قسم الإدارة والتخطيط التربوي</p>
+            </div>
+        </header>
+    
+        <section>
+            <p>الأخوة ................................................................ الأكارم
+            </p>
+            <p>الأخوات ................................................................ الكريمات
+            </p>
+            <p>السلام عليكم ورحمة الله وبركاته....وبعد</p>
+            <p>
+                تقوم الباحثة بإجراء بحث ميداني بعنوان: (القيادة الأخلاقية وعلاقنها بتحسين الأداء الوظيفي من خلال الولاء
+                التنظيمي للعاملين في الجامعات اليمنية الحكومية)
+                <span>، استكمالاً لمتطلبات الحصول على درجة دكتوراه الفلسفة في
+                    التربية، تخصص: إدارة وتخطيط نربوي.</span><span style="visibility: hidden;">نقطة</span>
+            </p>
+            <p>ويهدف البحث إلى: <span>
+                    التعرف على مستوى ممارسة القيادات الأكاديمية والإدارية للقيادة الأخلاقية، ومستوى الولاء التنظيمي والأداء
+                    الوظيفي للعاملين بالجامعات اليمنية الحكومية ، والكشف عمًا إذا كانت هنالك علاقات أرتباط بين القيادة
+                    الإخلاقية وكل من الولاء التنظيمي والأداء الوظيفي، والوقوف على ما إذا كان للولاء التنظيمي كمتغير وسيط
+                    تأثير في العلاقة بين القيادة الأخلاقية وتحسين الأداء الوظيفي للعاملين.
+                    <span style="visibility: hidden;">نقطة</span>
+                </span></p>
+            <p><span>نأمل منكم التكرم بالاجابة عن فقرات هذه الاستبانة بكل دقة وموضوعية، علماً بأن إجابتكم لن تستخدم إلا
+                    لأغراض
+                    البحث العلمي فقط وأرجو التكرم بقراءة الملحوظات الآتية:</span><span style="visibility: hidden;">نقطتين
+                    تحت
+                    بعض
+                </span></p>
+            <ul>
+                <li>اختبار الاجابة المناسبة أمام كل فقرة في المربع الذي يتفق مع وجهة نظركم. <span
+                        style="visibility: hidden;">نقطة</span></li>
+                <li>الإجابة عن جميع الفقرات، وعدم ترك أي فقرة. <span style="visibility: hidden;">نقطة</span></li>
+            </ul>
+            <p style="font-size: 22px; text-align: right;">مثال: <span style="visibility: hidden;">نقطتين تحت بعض</span></p>
+            <table style="margin: 20px;">
+                <thead>
+                    <tr>
+                        <th>الفقرة</th>
+                        <th>درجة الموافقة</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="width: 260px;">تتصرف قيادات الجامعة بحكمة في أثناء الأزمات</td>
+                        <td style="padding: 0;">
+                            <table style="width: 370px;">
+                                <tr>
+                                    <td>موافق بشدة</td>
+                                    <td>موافق</td>
+                                    <td>موافق إلى حد ما</td>
+                                    <td>غير موافق</td>
+                                    <td>غير موافق بشدة</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>√</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>وتنتهز الباحثة الفرصة لتقدم لكم جزيل الشكر على حسن تعاونكم لما فيه مصلحة البحث العلمي. <span
+                    style="visibility: hidden;">نقطة</span> وتقبلوا قائق الشكر والامتنان،،، <span
+                    style="visibility: hidden;">فاصلة</span></p>
+            <p style="width: 315px;">الباحثة / فايزة أحمد هجاري أحمد</p>
+        </section>
+        
+        <form action="check.php" method="post" onsubmit="return validateForm();">
+            <div id="forms" class="forms">
+                <span class="depart" id="depart">أولا: البيانات الشخصية والوظيفية:</span>
+                <div id="question-container" class="question-container">
+                </div>
+            </div>
+            
+            <div id="forms" class="forms">
+                <span class="depart" id="depart">المجال الاول : القيادة الاخلاقيه</span>
+                <div id="question-container1" class="question-container">
+                    <span class="tit">البعد الاول : الصفات الشخصية</span>
+                </div>
+            </div>
+    
+            <div id="forms" class="forms">
+                <span class="depart" id="depart">المجال الثاني :  الولاء التنظيمي</span>
+                <div id="question-container2" class="question-container">
+                    <span class="tit">البعد الاول : الولاء العاطفي</span>
+                </div>
+            </div>
+    
+            <div id="forms" class="forms">
+                <span class="depart" id="depart">المجال الثالث :  الاداء الوظيفي للموظفين</span>
+                <div id="question-container3" class="question-container">
+                    <span class="tit">البعد الاول : جودة الاداء</span>
+                </div>
+            </div>
+                
+            <input class="btn_sub" type="submit" value="Send">
+            <input class="btn_sub" type="reset" value="Reset">
+        </form>
+        
+    </div>
+
+    <footer dir="ltr">
+        <h2 class="foot">Copyright &copy; 2024 by Helmi Code | All Rights Reserved.</h2>
+        <button id="button"></button>
+        <script>
+            let button = document.getElementById('button');
+            button.onclick = function () {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+        </script>
+        <a href="Page_Data/index.php" target="_blank" >النتائج</a>
+    </footer>
+    
+  
+    
+    
+    <script src="Page.js"></script>
+</body>
+</html>
+

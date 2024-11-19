@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f4f4;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 10px auto;
+}
+.main{
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+form{
+    margin: 10px auto;
+    text-align: center;
+    width: 78%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    
+}
+.question-container {
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: #ededed;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 600px;
+    margin-bottom: 10px;
+    /* margin: 35px 0; */
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.container{
+    text-align: right;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(150, 142, 142, 0.1);
+    padding: 20px;
+    width: 97%;
+    margin-top: 5px;
+}
+.container:hover{
+    background-color: #ffffff64;
+    /* border: 3px solid #3a3a3ac0;
+    width: 100%; */
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px
+}
+
+.tit{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+.depart{
+    font-size: 25px;
+    margin: 20px 0 ;
+    font-weight: bold;
+}
+.btn_sub{
+    position: relative;
+    margin: 10px 75px;
+    width: 150px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.341);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn_sub:hover{
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* disign the header and the details */
+header,
+section {
+    background-color: white;
+    width: 700px;
+    height: 190px;
+    text-align: center;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    display: flex;
+    border-style: outset;
+    margin-right: 100px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 190px;
+    height: 190px;
+    margin-right: 110px;
+}
+
+header .heading {
+    width: 300px;
+    height: 180px;
+    margin-left: 110px;
+    text-align: center;
+    padding: 10px;
+}
+
+header .heading p {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+header .heading .p {
+    width: 200px;
+}
+
+/* --------------------------------------------- */
+
+section {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+}
+
+section p {
+    margin: 10px 35px 15px 35px;
+}
+
+section p span {
+    font-weight: normal;
+}
+
+section ul {
+    text-align: right;
+    direction: rtl;
+    margin: 10px 20px 10px 20px;
+    font-weight: normal;
+}
+
+section table,
+section table th,
+section table td {
+    direction: rtl;
+    border: 1px solid black;
+}
+
+section table {
+    border-collapse: collapse;
+    font-size: 16px;
+    justify-self: center;
+}
+
+/* footer */
+ 
+footer {
+    font-family: Arial, sans-serif;
+    height: 50px;
+    width: 900px;
+    margin: 20px auto;
+    padding: 10px 10px;
+    display: flex;
+    box-shadow: 0px 10px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.749);
+} 
+
+.foot{
+    font-size: medium;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    margin:5px 0 5px 50px ;
+    background-image: url('up.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: #00BCD4;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
